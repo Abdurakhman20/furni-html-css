@@ -1,15 +1,493 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gulp-start</title>
-    <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body>
-    <h1>Hello, gulp!</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furni</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__nav-container">
+            <img src="images/logo.svg" alt="logo" class="header__logo" />
+            <ul class="header__nav">
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Home</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">about us</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Services</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Blog</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="main-section">
+          <div class="container">
+            <div class="main-section__container">
+              <div class="main-section__left-wrapper">
+                <h1 class="main-section__title">
+                  Modern Interior Design Studio
+                </h1>
+                <div class="main-section__buttons">
+                  <button class="main-section__btn-shop btn">Shop Now</button>
+                  <button class="main-section__btn-explore btn">Explore</button>
+                </div>
+              </div>
+              <div class="main-section__right-wrapper">
+                <img
+                  src="images/header-content-img1.png"
+                  alt="img"
+                  class="main-section__img"
+                />
+                <img
+                  src="images/dotted.png"
+                  alt="img"
+                  class="main-section__dotts"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="materials">
+          <div class="container">
+            <div class="materials__container">
+              <div class="materials__left-wrapper">
+                <h2 class="materials__title">
+                  Crafted with excellent material.
+                </h2>
+                <p class="materials__text">
+                  Donec mattis porta eros, aliquet finibus risus interdum at.
+                  Nulla vivethe as it was for us to know what was to be done.
+                </p>
+                <button class="materials__btn-explore btn">explore</button>
+              </div>
+              <div class="materials__right-wrapper">
+                <div class="materials__cards">
+                  <div class="materials__card-item">
+                    <img
+                      class="materials__product-img"
+                      src="./images/products/product-1.png"
+                      alt="product"
+                    />
+                    <h3 class="materials__product-title">Nordic CHAIR</h3>
+                    <p class="materials__product-price">$50.00</p>
+                  </div>
+                  <div class="materials__card-item">
+                    <img
+                      class="materials__product-img"
+                      src="./images/products/product-2.png"
+                      alt="product"
+                    />
+                    <h3 class="materials__product-title">Kruzo Aero Chair</h3>
+                    <p class="materials__product-price">$78.00</p>
+                  </div>
+                  <div class="materials__card-item">
+                    <img
+                      class="materials__product-img"
+                      src="./images/products/product-3.png"
+                      alt="product"
+                    />
+                    <h3 class="materials__product-title">Ergonomic Chair</h3>
+                    <p class="materials__product-price">$43.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="our-advantages">
+          <div class="container">
+            <div class="our-advantages__container">
+              <div class="our-advantages__left-wrapper">
+                <h2 class="our-advantages__title">Why Choose Us</h2>
+                <p class="our-advantages__text">
+                  Donec mattis porta eros, aliquet finibus risus interdum at.
+                  Nulla vivethe as it was for us to know what was to be done.
+                  the
+                </p>
+                <div class="our-advantages__cards">
+                  <div class="our-advantages__card-item">
+                    <img src="images/our-advantages/icon1.svg" alt="icon" />
+                    <h3 class="our-advantages__card-title">
+                      Fast & Free Shipping
+                    </h3>
+                    <p class="our-advantages__card-text">
+                      Donec mattis porta eros, aliquet finibus risus interdum
+                      at. Nulla vivethe as it was
+                    </p>
+                  </div>
+                  <div class="our-advantages__card-item">
+                    <img src="images/our-advantages/icon2.svg" alt="icon" />
+                    <h3 class="our-advantages__card-title">Easy to Shop</h3>
+                    <p class="our-advantages__card-text">
+                      Donec mattis porta eros, aliquet finibus risus interdum
+                      at. Nulla vivethe as it was
+                    </p>
+                  </div>
+                  <div class="our-advantages__card-item">
+                    <img src="images/our-advantages/icon3.svg" alt="icon" />
+                    <h3 class="our-advantages__card-title">24/7 Support</h3>
+                    <p class="our-advantages__card-text">
+                      Donec mattis porta eros, aliquet finibus risus interdum
+                      at. Nulla vivethe as it was
+                    </p>
+                  </div>
+                  <div class="our-advantages__card-item">
+                    <img src="images/our-advantages/icon4.svg" alt="icon" />
+                    <h3 class="our-advantages__card-title">
+                      Hassle Free Returns
+                    </h3>
+                    <p class="our-advantages__card-text">
+                      Donec mattis porta eros, aliquet finibus risus interdum
+                      at. Nulla vivethe as it was
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="our-advantages__right-wrapper">
+                <img
+                  class="our-advantages__right-img"
+                  src="images/our-advantages/right-img.png"
+                  alt="img"
+                />
+                <img
+                  class="our-advantages__dotts"
+                  src="images/our-advantages/yellow-dotts.png"
+                  alt="dotts"
+                />
+                <img
+                  class="our-advantages__rectangle"
+                  src="images/our-advantages/rectangle.png"
+                  alt="rectangle"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="design">
+          <div class="container">
+            <div class="design__container">
+              <div class="design__left-wrapper">
+                <img
+                  class="design__first-img"
+                  src="images/design-section/img1.png"
+                  alt="img"
+                />
+                <img
+                  class="design__second-img"
+                  src="images/design-section/img2.png"
+                  alt="img"
+                />
+                <img
+                  class="design__third-img"
+                  src="images/design-section/img3.png"
+                  alt="img"
+                />
+                <img
+                  class="design__dotts"
+                  src="images/design-section/blue-dotts.png"
+                  alt="dotts"
+                />
+              </div>
+              <div class="design__right-wrapper">
+                <h2 class="design__title">
+                  We help you make Modern Interior Design
+                </h2>
+                <p class="design__text">
+                  Donec mattis porta eros, aliquet finibus risus interdum at.
+                  Nulla vivethe as it was for us to know what was to be done.
+                  the this is a long post for the text.`This small text has to
+                  be place here, since this is a place holder. You can also
+                  chane it.
+                </p>
+                <div class="design__cards">
+                  <div class="design__card-item">
+                    <img
+                      src="images/design-section/ellipse.svg"
+                      alt="ellipse"
+                    />
+                    <p>Donec mattis porta eros,let aliquet finibus ri</p>
+                  </div>
+                  <div class="design__card-item">
+                    <img
+                      src="images/design-section/ellipse.svg"
+                      alt="ellipse"
+                    />
+                    <p>Donec mattis porta eros,let aliquet finibus ri</p>
+                  </div>
+                  <div class="design__card-item">
+                    <img
+                      src="images/design-section/ellipse.svg"
+                      alt="ellipse"
+                    />
+                    <p>Donec mattis porta eros,let aliquet finibus ri</p>
+                  </div>
+                  <div class="design__card-item">
+                    <img
+                      src="images/design-section/ellipse.svg"
+                      alt="ellipse"
+                    />
+                    <p>Donec mattis porta eros,let aliquet finibus ri</p>
+                  </div>
+                </div>
+                <button class="design__btn-explore btn">explore</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="testimonials">
+          <div class="container">
+            <div class="testimonials__container">
+              <div class="testimonials__cards">
+                <div class="testimonials__card-item">
+                  <img src="images/testimonials-section/img1.png" alt="img" />
+                  <div>
+                    <h3 class="testimonials__card-title">Nordic Chair</h3>
+                    <p class="testimonials__card-text">
+                      Donec mattis porta eros, aliquet finibus risus in. Donecd
+                    </p>
+                    <a href="#" class="testimonials__card-info">Read more</a>
+                  </div>
+                </div>
+                <div class="testimonials__card-item">
+                  <img src="images/testimonials-section/img2.png" alt="img" />
+                  <div>
+                    <h3 class="testimonials__card-title">Kruzi Aero</h3>
+                    <p class="testimonials__card-text">
+                      Donec mattis porta eros, aliquet finibus risus in. Donecd
+                    </p>
+                    <a href="#" class="testimonials__card-info">Read more</a>
+                  </div>
+                </div>
+                <div class="testimonials__card-item">
+                  <img src="images/testimonials-section/img3.png" alt="img" />
+                  <div>
+                    <h3 class="testimonials__card-title">Ergonomic Chair</h3>
+                    <p class="testimonials__card-text">
+                      Donec mattis porta eros, aliquet finibus risus in. Donecd
+                    </p>
+                    <a href="#" class="testimonials__card-info">Read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__swiper">
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <h3 class="swiper-slide__title">Testimonials</h3>
+                      <p class="swiper-slide__text">
+                        ‘’Donec nibh magna, interdum quis massa sed, rhoncus
+                        laoreet quam. Mauris accumsan felis fermentum euismod
+                        egestas. Mauris ante augue, cursus sit amet arcu a,
+                        maximus suscipit nibh. Integer vel nibh tellus.
+                        Pellentesque in risus non dui venenatis sollicitudin sed
+                        vitae diam. Fusce tincidunt nisl mi, at molestie odio
+                        accumsan non. Pellentesque ma’’
+                      </p>
+                      <div class="swiper-slide__author">
+                        <img
+                          class="swiper-slide__author-img"
+                          src="images/testimonials-section/avatar.png"
+                          alt="avatar"
+                        />
+                        <h4 class="swiper-slide__author-name">Michelle Anna</h4>
+                        <p class="swiper-slide__author-info">
+                          CEO, Co-Founder, XYZ Inc.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <h3 class="swiper-slide__title">Testimonials</h3>
+                      <p class="swiper-slide__text">
+                        ‘’Donec nibh magna, interdum quis massa sed, rhoncus
+                        laoreet quam. Mauris accumsan felis fermentum euismod
+                        egestas. Mauris ante augue, cursus sit amet arcu a,
+                        maximus suscipit nibh. Integer vel nibh tellus.
+                        Pellentesque in risus non dui venenatis sollicitudin sed
+                        vitae diam. Fusce tincidunt nisl mi, at molestie odio
+                        accumsan non. Pellentesque ma’’
+                      </p>
+                      <div class="swiper-slide__author">
+                        <img
+                          class="swiper-slide__author-img"
+                          src="images/testimonials-section/avatar.png"
+                          alt="avatar"
+                        />
+                        <h4 class="swiper-slide__author-name">Michelle Anna</h4>
+                        <p class="swiper-slide__author-info">
+                          CEO, Co-Founder, XYZ Inc.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <h3 class="swiper-slide__title">Testimonials</h3>
+                      <p class="swiper-slide__text">
+                        ‘’Donec nibh magna, interdum quis massa sed, rhoncus
+                        laoreet quam. Mauris accumsan felis fermentum euismod
+                        egestas. Mauris ante augue, cursus sit amet arcu a,
+                        maximus suscipit nibh. Integer vel nibh tellus.
+                        Pellentesque in risus non dui venenatis sollicitudin sed
+                        vitae diam. Fusce tincidunt nisl mi, at molestie odio
+                        accumsan non. Pellentesque ma’’
+                      </p>
+                      <div class="swiper-slide__author">
+                        <img
+                          class="swiper-slide__author-img"
+                          src="images/testimonials-section/avatar.png"
+                          alt="avatar"
+                        />
+                        <h4 class="swiper-slide__author-name">Michelle Anna</h4>
+                        <p class="swiper-slide__author-info">
+                          CEO, Co-Founder, XYZ Inc.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                  <div class="slider-buttons">
+                    <div class="swiper__slider-btn swiper-button-prev"></div>
+                    <div class="swiper__slider-btn swiper-button-next"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="blog">
+          <div class="container">
+            <div class="blog__container">
+              <h2 class="blog__title">Recent Blog</h2>
+              <div class="blog__cards">
+                <div class="blog__card-item">
+                  <img src="images/blog/img1.jpg" alt="img" />
+                  <h3 class="blog__card-title">First Time Home Owner Ideas</h3>
+                  <p class="blog__card-owner">by Nana Ama on Nov 18th, 2022</p>
+                </div>
+                <div class="blog__card-item">
+                  <img src="images/blog/img2.jpg" alt="img" />
+                  <h3 class="blog__card-title">First Time Home Owner Ideas</h3>
+                  <p class="blog__card-owner">by Nana Ama on Nov 18th, 2022</p>
+                </div>
+                <div class="blog__card-item">
+                  <img src="images/blog/img3.jpg" alt="img" />
+                  <h3 class="blog__card-title">First Time Home Owner Ideas</h3>
+                  <p class="blog__card-owner">by Nana Ama on Nov 18th, 2022</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__container">
+            <div class="footer__top-content">
+              <form class="footer__form">
+                <h2 class="footer__form-title">
+                  <img src="images/letter-icon.svg" alt="icon" />
+                  Subscribe to Newsletter
+                </h2>
+                <div class="footer__form-inner">
+                  <input
+                    type="text"
+                    class="footer__name-input form-input"
+                    placeholder="Enter your name"
+                  />
+                  <input
+                    type="email"
+                    class="footer__email-input form-input"
+                    placeholder="Enter your e-mail"
+                  />
+                  <button type="submit" class="footer__submit-btn">
+                    <img src="images/submit-icon.svg" alt="submit" />
+                  </button>
+                </div>
+              </form>
+              <img
+                src="images/footer/sofa-img.png"
+                alt="sofa"
+                class="footer__img"
+              />
+            </div>
+            <div class="footer__bottom-content">
+              <div class="footer__info">
+                <h2 class="footer__title">Furni.</h2>
+                <p class="footer__text">
+                  Donec mattis porta eros, aliquet finibus risus interdum at.
+                  Nulla vivethe as it was for us to know what was to be done.
+                  the this is a long post for the text.`This small text has to
+                  be place here, since this is
+                </p>
+                <div class="footer__sotial-media">
+                  <a href="#"
+                    ><img src="images/footer/facebook.svg" alt="facebook"
+                  /></a>
+                  <a href="#"
+                    ><img src="images/footer/instagram.svg" alt="instagram"
+                  /></a>
+                  <a href="#"
+                    ><img src="images/footer/twitter.svg" alt="twitter"
+                  /></a>
+                  <a href="#"
+                    ><img src="images/footer/linkedin.svg" alt="linkedin"
+                  /></a>
+                </div>
+              </div>
+              <nav class="footer__navigation">
+                <ul>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">Knowledge base</a></li>
+                  <li><a href="#">Live chat</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#">Jobs</a></li>
+                  <li><a href="#">Our team</a></li>
+                  <li><a href="#">Leadership</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#">Nordic Chair</a></li>
+                  <li><a href="#">Kruzo Aero</a></li>
+                  <li><a href="#">Ergonomic</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p class="footer__copyright-text container">
+            Copyright 2022 degraft87@gmail.com. All Rights Reserved.
+          </p>
+          <nav class="footer__copyright-nav container">
+            <ul>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
 
     <script src="js/main.min.js"></script>
-</body>
+  </body>
 </html>
